@@ -1,0 +1,58 @@
+[
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$216000$qMRH8szID7Z8$Vljya2V3XfruOHuvx1hGz9ZyKg4bxbw7rc2WO0gTR7I=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "Carrie1945",
+      "first_name": "Carrie",
+      "last_name": "Belk",
+      "email": "me@me.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2020-08-28T14:51:39.989Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "app_api.genre",
+    "pk": 1,
+    "fields": {
+      "name": "Horror"
+    }
+  },
+  {
+    "model": "app_api.genre",
+    "pk": 2,
+    "fields": {
+      "name": "Drama"
+    }
+  },
+  {
+    "model": "app_api.movie",
+    "pk": 1,
+    "fields": {
+      "title": "Titanic",
+      "description": "Boat hits a glacier",
+      "run_time": 120,
+      "date_released": "1996-10-31",
+      "user": 1,
+      "genre": 1
+    }
+  },
+  {
+    "model": "app_api.movie",
+    "pk": 2,
+    "fields": {
+      "title": "Halloween",
+      "description": "Slow people get caught and die",
+      "run_time": 120,
+      "date_released": "1978-04-17",
+      "user": 1,
+      "genre": 2
+    }
+  }
+]

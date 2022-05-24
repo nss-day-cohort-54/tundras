@@ -9,6 +9,6 @@ class Movie(models.Model):
     run_time = models.IntegerField()
     user = models.ForeignKey(
         User, on_delete=models.CASCADE, related_name="movies")
-    date_released = models.DateField(default=date.today())
+    date_released = models.DateField()
     genre = models.ForeignKey(
         "Genre", on_delete=models.CASCADE, related_name="movies")
