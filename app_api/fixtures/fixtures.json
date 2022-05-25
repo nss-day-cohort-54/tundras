@@ -18,6 +18,14 @@
     }
   },
   {
+    "model": "authtoken.token",
+    "pk": "1fhguvbfjdurud",
+    "fields": {
+      "user": 1,
+      "created": "2022-05-25"
+    }
+  },
+  {
     "model": "app_api.genre",
     "pk": 1,
     "fields": {
